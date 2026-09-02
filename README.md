@@ -27,6 +27,6 @@ for number in numbers:
 print("Largest number:", largest)
 ```
 
-Time Complexity: **O(5)** i.e. **O(n)**
+Time Complexity: **O(n)**
 
 The loop checks every element in the list once, so for `n` elements it runs `n` times.
