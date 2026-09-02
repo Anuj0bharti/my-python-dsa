@@ -1,0 +1,32 @@
+
+# DSA with Python
+
+This repository contains my daily practice and learning of Data Structures and Algorithms using Python.
+
+## Day 1
+
+### Topic Covered
+
+Time Complexity
+
+Time complexity is used to understand how the running time of a program grows with the input size.
+
+### Practice
+
+Solved problems to find and understand their time complexity.
+
+```python
+numbers = [10, 25, 7, 42, 18]
+
+largest = numbers[0]
+
+for number in numbers:
+    if number > largest:
+        largest = number
+
+print("Largest number:", largest)
+```
+
+Time Complexity: **O(5)** i.e. **O(n)**
+
+The loop checks every element in the list once, so for `n` elements it runs `n` times.
