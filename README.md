@@ -31,28 +31,43 @@ Time Complexity: **O(n)**
 
 The loop checks every element in the list once, so for `n` elements it runs `n` time
 
-Day 2
-Topics Covered
+## Day 2
+
+### Topic Covered
 
 TLE (Time Limit Exceeded)
 
-TLE occurs when a program takes longer than the allowed time limit to execute. Efficient algorithms help avoid TLE for large inputs.
+TLE occurs when a program takes more time than the allowed limit to execute.
 
 Python List Time Complexity
 
-Learned the time complexity of common Python list operations such as append, pop, insert, delete, slicing, searching, sorting and iteration.
+Learned the time complexity of common Python list operations.
 
-Practice
+### Practice
 
-Studied the time complexity of Python list operations.
+Studied the time complexity of Python list operations and practiced identifying operations that can lead to TLE.
 
-Append       O(1)
-Pop last     O(1)
-Get item     O(1)
-Set item     O(1)
-Iteration    O(n)
-Search       O(n)
-Insert       O(n)
-Delete       O(n)
-Sort         O(n log n)
-Get length   O(1)
+| Operation | Time Complexity |
+|---|---|
+| Copy | O(n) |
+| Append | O(1) |
+| Pop last | O(1) |
+| Pop intermediate | O(n) |
+| Insert | O(n) |
+| Get Item | O(1) |
+| Set Item | O(1) |
+| Delete Item | O(n) |
+| Iteration | O(n) |
+| Get Slice | O(k) |
+| Delete Slice | O(n) |
+| Set Slice | O(k+n) |
+| Extend | O(k) |
+| Sort | O(n log n) |
+| Multiply | O(nk) |
+| Search (`x in s`) | O(n) |
+| min(), max() | O(n) |
+| Get Length | O(1) |
+
+Practice code: `day2.py`
+
+### Notes
